@@ -1,0 +1,56 @@
+
+  body{
+  background-color: red;
+  font-size: 10px;
+  display:flex;
+  flex-direction: column;
+  }
+  #small{
+    display: block;
+  }
+  #medium{
+  display: block;
+  }
+  #large{
+  display: block; 
+  }
+
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+  body {
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 15px;
+  }
+  #small{
+    display: block;
+    width: 33%;
+  }
+  #medium{
+  display: block;
+  width: 66%;
+  }
+  #large{
+  display: block;
+  width: 99%;
+  }
+  }
+@media only screen and (min-width: 768px) {
+  body {
+  background-color: blue;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  }
+  #small{
+  display: block;
+  }
+  #medium{
+  display: block;
+  }
+  #large{
+  display: block;
+  }
+}
